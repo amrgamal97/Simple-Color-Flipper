@@ -1,0 +1,49 @@
+body {
+    transition: .3s;
+}
+
+nav h1 {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 0px 7px 0px #00000069;
+    color: green;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: white;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.container h2 {
+    text-align: center;
+    margin: 100px auto 0;
+    width: fit-content;
+    padding: 20px;
+    background-color: #26a69a;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.container .btn {
+    margin: 40px auto;
+    display: block;
+    padding: 15px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .3s;
+    outline: none;
+    cursor: pointer;
+}
+
+.container .btn:hover {
+    background-color: hotpink;
+    color: white;
+}
